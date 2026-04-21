@@ -1,0 +1,36 @@
+# Virtual environment
+venv310/
+
+# Face data - privacy + large files
+face_data/
+
+# Cache files
+*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model files (too large for GitHub)
+*.onnx
+*.pt
+*.pth
+*.bin
+Models/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
+
+# Images (personal photos in face_data)
+*.jpg
+*.jpeg
+*.png
